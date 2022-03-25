@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div data-test="component-app">
+      <h1>Click Counter</h1>
     </div>
   );
 }
